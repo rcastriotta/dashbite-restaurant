@@ -1,0 +1,82 @@
+.Form {
+    width: 330px;
+    height: 440px;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: -5px 5px 30px rgba(192, 192, 192, 0.1);
+    border-radius: 10px;
+    transition: all 0.5s ease-out;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-family: 'uber-bold';
+}
+
+.Results {
+    background-color: white;
+    position: absolute;
+    margin-top: 150px;
+    width: 330px;
+    border-radius: 10px;
+    box-shadow: -5px 5px 30px rgba(192, 192, 192, 0.7);
+}
+
+.Results>ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Results>ul>li {
+    border-bottom-style: solid;
+    border-bottom-color: rgb(218, 218, 218);
+    border-bottom-width: 1px;
+    cursor: pointer;
+    font-family: uber-medium;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+    .Form {
+        box-shadow: -10px 10px 40px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+        width: 300px;
+        margin-left: 0px;
+    }
+    .Input {
+        font-size: 15px;
+    }
+    .Submit {
+        font-size: 15px;
+    }
+}
+
+.Inputs {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ButtonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.Submit {
+    background-color: #4E60FF;
+    border: none;
+    outline: none;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'uber-medium';
+    cursor: pointer;
+}

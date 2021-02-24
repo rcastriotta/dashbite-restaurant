@@ -1,0 +1,21 @@
+.Panel {
+    height: 80%;
+    width: 35%;
+    max-width: 450px;
+    min-width: 200px;
+    padding: 30px;
+    padding-top: 10px;
+    max-height: 800px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(134, 134, 134, 0.1) 0px 0px 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.Panel>h3 {
+    font-family: uber-bold;
+    color: #1F406C;
+}

@@ -1,0 +1,12 @@
+.Footer {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.TextContainer {
+    padding-left: 20px;
+    font-family: "uber-medium";
+}

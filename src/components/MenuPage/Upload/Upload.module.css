@@ -1,0 +1,70 @@
+.DownloadTemplate {
+    font-family: uber-medium;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.DownloadTemplate>a {
+    color: #1F406C;
+}
+
+.FileDrop {
+    margin-top: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border-style: dotted;
+    border-color: #C8CEFF;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: #1F406C;
+    margin-bottom: 5px;
+    transition: all .2s ease-in-out;
+    text-align: center;
+}
+
+.Active {
+    background-color: #f1f2ff;
+}
+
+.Requirements {
+    color: #1F406C;
+    font-family: uber-medium;
+}
+
+.ButtonsContainer {
+    display: flex;
+    height: 150px;
+    flex-direction: column;
+    margin-top: 30px;
+    font-family: uber-medium;
+    color: #4E60FF;
+}
+
+.Button {
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    font-family: uber-medium;
+    font-size: 13px;
+    background-color: white;
+    color: #4E60FF;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+    margin-top: 20px;
+    outline: none;
+}
+
+.Upload {
+    background-color: #4E60FF;
+    color: white;
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+}

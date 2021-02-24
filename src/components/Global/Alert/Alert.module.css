@@ -1,0 +1,40 @@
+.Alert {
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 20px;
+    font-family: uber-medium;
+    font-size: 14px;
+    color: rgb(48, 48, 48);
+}
+
+.Success {
+    background-color: #EDF9E1;
+}
+
+.CloseButton {
+    outline: none;
+    border-radius: 100px;
+    border: none;
+    background-color: unset;
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.Error {
+    background-color: #fde9ef;
+}
+
+.Info {
+    background-color: #E8F5FE;
+}

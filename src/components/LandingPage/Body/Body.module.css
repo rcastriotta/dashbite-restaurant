@@ -1,0 +1,218 @@
+.BackgroundImg {
+    background-image: url('../../../assets/LandingPage/background.png');
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.TopContainer {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TitleTextContainer {
+    width: 500px;
+    font-size: 25px;
+    font-family: "uber-bold";
+    color: white;
+    font-size: 23px;
+}
+
+.TitleTextContainer>span {
+    font-family: uber-medium;
+}
+
+.WhatIs {
+    width: 100%;
+    height: 500px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.InfoContainer {
+    display: flex;
+    margin-top: 40px;
+    color: gray;
+    justify-content: space-between;
+}
+
+.Line {
+    width: 130px;
+    height: 4px;
+    background-color: #4E60FF;
+    border-radius: 10px;
+}
+
+h2 {
+    font-family: "uber-bold";
+}
+
+.VidContainer {
+    height: 170px;
+    width: 300px;
+    border-radius: 5px;
+    margin-right: 100px;
+}
+
+.Vid {
+    height: 100%;
+    width: 100%;
+    outline: none;
+}
+
+p {
+    font-family: "uber-medium";
+}
+
+.CanDo {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.CanDo>.InfoContainer {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.Item {
+    height: 300px;
+    width: 220px;
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #E5E5E5;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-width: 1px;
+}
+
+.Item>p {
+    font-size: 13px;
+}
+
+.Item>span {
+    font-family: "uber-bold";
+    color: black;
+}
+
+.ImgContainer {
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.ImgContainer>Img {
+    height: 100%;
+}
+
+.TryIt {
+    margin-top: 200px;
+    background-color: #F3F3F3;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.TryIt>.InfoContainer {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.Square {
+    background-color: white;
+    height: 230px;
+    width: 230px;
+    border-radius: 10px;
+    padding: 20px;
+    align-self: center;
+    box-shadow: -10px 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.BottomMsg {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.TextContainer {
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    font-size: 25px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.BottomButton {
+    outline: none;
+    border: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 100px;
+    background-color: #4E60FF;
+    color: white;
+    font-family: uber-medium;
+    margin-top: 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 750px) {
+    .TopContainer {
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    .TitleTextContainer {
+        width: 400px;
+        font-size: 20px;
+    }
+    .WhatIs {
+        margin-top: 200px;
+    }
+    .TitleTextContainer {
+        margin-top: 100px;
+        text-align: center;
+    }
+    .InfoContainer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .VidContainer {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .Item {
+        margin-bottom: 50px;
+    }
+    .TryIt {
+        height: 900px;
+        padding-bottom: 100px;
+    }
+    .BottomButton {
+        font-size: 14px;
+    }
+    .TextContainer {
+        max-width: 700px;
+        font-size: 15px;
+    }
+}

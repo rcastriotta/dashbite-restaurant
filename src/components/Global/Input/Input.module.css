@@ -1,0 +1,14 @@
+.Input {
+    border-style: solid;
+    border-color: white;
+    height: 50px;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'uber-medium';
+    padding-left: 15px;
+}
+
+.Error {
+    border-color: rgb(255, 83, 83);
+}
